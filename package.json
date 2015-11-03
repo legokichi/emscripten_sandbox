@@ -1,0 +1,21 @@
+{
+  "name": "emscripten_sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "a.out.js",
+  "scripts": {
+    "build": "emcc helloworld.c",
+    "build-llvm": "clang -S -emit-llvm helloworld.c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legokichi/emscripten_sandbox.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/legokichi/emscripten_sandbox/issues"
+  },
+  "homepage": "https://github.com/legokichi/emscripten_sandbox#readme"
+}
